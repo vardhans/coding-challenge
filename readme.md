@@ -11,9 +11,8 @@ the solution should work and provide the basic functionality. Surely we would ap
 ## Functional Requirements.
 
 * The application starts with the landing page, where the user can see a list of loans (refer to /images/1.loan-application-landing-    page.png)
-* By selecting each loan (ticking the Top Up checkbox) the details of the loan will be expanded as a card, 
-*	  and Payout/Carryover amount for each loan would be shown at the top of the page (refer to /images/2.selecting-individual-loans.png)
-*	As you can see each loan has 4 elements retrieved from the web api, 
+* By selecting each loan (ticking the Top Up checkbox) the details of the loan will be expanded as a card, and Payout/Carryover amount for each loan would be shown at the top of the page (refer to /images/2.selecting-individual-loans.png)
+* As you can see each loan has 4 elements retrieved from the web api, 
     - Balance
     - Interest
     - Early Payment Fee
