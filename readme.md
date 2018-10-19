@@ -10,24 +10,23 @@ the solution should work and provide the basic functionality. Surely we would ap
 
 ## Functional Requirements.
 
-*	
-*	1. The application starts with the landing page, where the user can see a list of loans (refer to /images/1.loan-application-landing-page.png)
-*	2. By selecting each loan (ticking the Top Up checkbox) the details of the loan will be expanded as a card, 
-*	and Payout/Carryover amount for each loan would be shown at the top of the page (refer to /images/2.selecting-individual-loans.png)
+* The application starts with the landing page, where the user can see a list of loans (refer to /images/1.loan-application-landing-    page.png)
+* By selecting each loan (ticking the Top Up checkbox) the details of the loan will be expanded as a card, 
+*	  and Payout/Carryover amount for each loan would be shown at the top of the page (refer to /images/2.selecting-individual-loans.png)
 *	As you can see each loan has 4 elements retrieved from the web api, 
-*		- Balance
-*		- Interest
-*		- Early Payment Fee
-*		- And the Payout/Carryover which is the sum of the above numbers
-*	3. User could also have multiple loans retrieved from the web api (refer to /images/3.retrieving-multiple-loans.png)
-*	4. Again selecting each loan (ticking the top up button), would show Payout/Carryover amount at the top 
-*	(refer to /images/4.selecting-individual-loans-when-there-is-multiple-loans.png)
-* 	5. Ticking the top up checkbox for multiple loans, would fill the sum of all selected loans in the Carryover/Payout Amount 
-*	at the top of the page (refer to /images/5.selecting-multiple-loans.png)
+    - Balance
+    - Interest
+    - Early Payment Fee
+    - And the Payout/Carryover which is the sum of the above numbers
+* User could also have multiple loans retrieved from the web api (refer to /images/3.retrieving-multiple-loans.png)
+* Again selecting each loan (ticking the top up button), would show Payout/Carryover amount at the top 
+*   (refer to /images/4.selecting-individual-loans-when-there-is-multiple-loans.png)
+* Ticking the top up checkbox for multiple loans, would fill the sum of all selected loans in the Carryover/Payout Amount 
+*   at the top of the page (refer to /images/5.selecting-multiple-loans.png)
 
-*   Display retrieved loans on the page as expandable cards as shown in the image.
-*   `Apply for Increased Loan Amounts` button should be enabled only when selected balance is more than `0`.
-*   `Apply for new Loan` button needs to be disabled when 3 or more accounts are available.
+* Display retrieved loans on the page as expandable cards as shown in the image.
+* `Apply for Increased Loan Amounts` button should be enabled only when selected balance is more than `0`.
+* `Apply for new Loan` button needs to be disabled when 3 or more accounts are available.
 
 
 ## Technical requirements.
