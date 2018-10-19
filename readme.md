@@ -1,10 +1,10 @@
-# UI Test
+# Coding Challenge 
 
 ## Overview
 
 This is a loan management application. We would be greateful if you create a single page application (SPA) with a list of loans for us.
 
-We don't expect you to finish the whole exercise if you don't have enough time, You can submit 
+We know you are busy, and we don't expect you to finish the whole exercise if you don't have enough time, You can submit 
 what you have done and tell us what you would have done differently if you had more time, although 
 the solution should work and provide the basic functionality. Surely we would appreciate if you could finish the whole exercise.
 
